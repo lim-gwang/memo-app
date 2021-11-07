@@ -1,6 +1,6 @@
 # memo-app 프로젝트
 
-Ract.js로 구현한 간단한 반응형 memo app입니다. 
+React.js로 구현한 간단한 반응형 memo app입니다. 
 
 https://user-images.githubusercontent.com/69568284/140652856-f7ed8da9-a7fb-43a7-aa54-5cbc5851d599.mov
 
