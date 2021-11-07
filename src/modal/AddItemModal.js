@@ -78,7 +78,7 @@ const AddItemModal = ( {show, onHide} ) => {
                 </FloatingLabel>
               </Form.Group>
             </Col>
-            <Form.Group className="position-relative mb-3" >
+            <Form.Group className="position-relative mb-3" style={{display:"none"}}>
               <Form.Label>File</Form.Label>
               <Form.Control
                 type="file"

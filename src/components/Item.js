@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useDispatch } from 'react-redux'
 import { Card, Button } from 'react-bootstrap'
 import { deleteMemo } from '../store/user/user'
@@ -11,7 +11,7 @@ const Item = ( {id, title, content, src} ) => {
     <Card style={{ 
       margin:".5rem",
     }}>
-      <figure 
+      <figure style={{display:"none"}}
         className="figure"
       >
         {

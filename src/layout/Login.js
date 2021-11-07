@@ -25,32 +25,6 @@ const Login = ({ loginData }) => {
       [key]: e.target.value,
     });
   };
-  // const loginRequestPost = () => {
-  //   axios.post('http://localhost/api/sign-in', {
-  //         account: input.account,
-  //         password: input.password,
-  //       })
-  //       .then(res => {
-  //         const token = res.data.token;
-  //         return token;
-  //       })
-  //       .catch(err => {
-  //         alert("로그인 실패")
-  //       })
-  // }
-
-  // axios.get('http://localhost/api/memos', {
-  //     headers: {
-  //       // Authorization:`Bearer ${token}`,
-  //     }
-  //   })
-  //   .then(res => {
-  //     console.log(res, 'get')
-  //     const memos = res.data.memos;
-  //     const responseURL = res.request.responseURL;
-  //     loginData(memos, responseURL)
-  //   })
-  
 
   const loginAction = e => {
     if (e.key !== 'Enter') return 

@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { addItem, itemDelete } from '../memo/actions';
-import { useHistory } from 'react-router';
 
 // 회원가입
 export const join = ({ account, password, passwordConfirmation }, onHide) => (dispatch, getState) => {
@@ -77,9 +76,3 @@ export const deleteMemo = id => (dispatch, getState) => {
     })
 }
 
-// export const deleteMemo = (id) => (dispatch, getState) => {
-//   userData()
-//     .then(memos => {
-//       dispatch(itemDelete(id))
-//     })
-// }
